@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px; /* Add space above the button */
+}
+
+.rounded-button {
+  padding: 10px 20px;
+  border-radius: 20px; /* Create rounded corners */
+  font-size: 16px;
+  background-color: hsl(203, 89%, 53%); /* Twitter blue */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+  /* Hover effect for better user interaction */
+.rounded-button:hover {
+  background-color: #0c84c6; /* Darker shade on hover */
+}
+
+/* .container1 {
+  text-align: center;
+  margin-top: 120px; /* Add space above the button */
+
+
+.square-button {
+  padding: 10px 20px;
+  border-radius: 1px; /* Create rounded corners */
+  font-size: 16px;
+  background-color: hsl(0, 0%, 1%); /* Twitter blue */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
